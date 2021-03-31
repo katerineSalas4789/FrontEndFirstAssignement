@@ -1,0 +1,13 @@
+body{
+    background: whitesmoke;       
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container{
+    color: gray;
+}
+
+.article{
+    background: lightslategray;
+    color: white;
+}
