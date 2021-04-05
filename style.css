@@ -1,13 +1,91 @@
-body{
-    background: whitesmoke;       
+body {
+    /* background: whitesmoke; */
     font-family: 'Courier New', Courier, monospace;
 }
 
-#container{
+#container {
     color: gray;
+    margin: 0 20px;
 }
 
-.article{
+.article {
     background: lightslategray;
+    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    width: 400px;
+}
+
+.menu-ul>li {
+    display: inline;
+    text-decoration: none;
+}
+
+.menu-ul {
+    display: inline;
+    padding: 0;
+}
+
+#logo {
+    padding: 2px 25px;
+    margin: 0 10px;
+    background: #8190a5;
+    border-radius: 4px;
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-ul>li>a {
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.menu-ul>li>a:hover {
+    background: #e5e9f2;
+}
+
+.search input {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+/* Cards Section */
+
+#services {
+    padding: 0 30px;
+    margin: 45px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    height: 450px;
+}
+
+.card-img {
+    background: #e5e9f2;
+    height: 200px;
+    width: auto;
+}
+
+
+/* Footer Section */
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #47525e;
     color: white;
 }
